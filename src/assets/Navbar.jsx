@@ -23,7 +23,6 @@ export default function Navbar() {
           <motion.a href="#skills" variants={navItem} initial="hidden" animate="visible">Skills</motion.a>
           <motion.a href="#projects" variants={navItem} initial="hidden" animate="visible">Projects</motion.a>
           <motion.a href="#contact" variants={navItem} initial="hidden" animate="visible">Contact</motion.a>
-          <motion.a href="/resume" variants={navItem} initial="hidden" animate="visible">Resume</motion.a>
         </div>
 
         <Menu className="md:hidden cursor-pointer" onClick={() => setOpen(!open)} />
@@ -37,7 +36,6 @@ export default function Navbar() {
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-            <a href="/resume">Resume</a>
           </motion.div>
         )}
       </div>

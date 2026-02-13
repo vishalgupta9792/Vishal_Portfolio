@@ -34,17 +34,37 @@ export default function Resume() {
 
       <h3 className="text-xl font-semibold text-blue-300 mt-6">Professional Experience</h3>
       <div className="text-gray-300 mt-2 leading-7">
-        <p className="font-semibold">Full-Stack Developer Intern | Edunet Foundation</p>
-        <ul className="list-disc pl-6 mt-2">
-          <li>Building modern web applications with MERN Stack.</li>
-          <li>Worked on an online auction platform.</li>
-        </ul>
+        <div className="mb-4">
+          <p className="font-semibold">💼 Professional Experience</p>
+        </div>
 
-        <p className="font-semibold mt-4">Full-Stack Developer | EDUSUPPORT</p>
-        <ul className="list-disc pl-6 mt-2">
-          <li>Developed and maintained full-stack web applications using MERN stack (MongoDB, Express.js, React, Node.js) for school websites and AI-powered tutoring platforms.</li>
-          <li>Integrated AI-based features, built responsive interfaces, and worked on authentication, API integration, and database management.</li>
-        </ul>
+        <div className="mb-6">
+          <p className="font-semibold">🚀 Full Stack Developer — EDUSUPPORT | 6 Months</p>
+          <p className="italic text-sm text-gray-400">Worked as a Full Stack Developer at EDUSUPPORT, contributing to the development of scalable and production-ready web applications.</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li>Developed responsive and high-performance frontend applications using React.js, Next.js, and TypeScript.</li>
+            <li>Built secure and scalable RESTful APIs using Node.js and Express.js.</li>
+            <li>Designed and managed databases using MongoDB, PostgreSQL, and MySQL, including schema design, data modeling, and optimized queries.</li>
+            <li>Implemented authentication and authorization using JWT, OAuth 2.0, and RBAC.</li>
+            <li>Deployed applications on AWS (EC2, S3, IAM) ensuring reliability and scalability.</li>
+            <li>Implemented automated CI/CD pipelines using GitHub Actions for seamless deployment.</li>
+            <li>Collaborated in team-based development environments using Git and Agile workflows.</li>
+          </ul>
+        </div>
+
+        <div className="mb-6">
+          <p className="font-semibold">💻 MERN Stack Developer — EDUNET | 6 Months</p>
+          <p className="italic text-sm text-gray-400">Worked as a MERN Stack Developer at EDUNET, focusing on full-stack development using MongoDB, Express.js, React.js, and Node.js.</p>
+          <ul className="list-disc pl-6 mt-2">
+            <li>Developed full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).</li>
+            <li>Created interactive UI components using React.js with state management and reusable components.</li>
+            <li>Developed backend APIs and handled server-side logic using Node.js and Express.js.</li>
+            <li>Integrated MongoDB database with backend services for efficient data handling.</li>
+            <li>Implemented secure user authentication using JWT-based authentication.</li>
+            <li>Debugged, tested, and optimized applications to improve performance and responsiveness.</li>
+            <li>Assisted in deployment and basic cloud hosting configurations.</li>
+          </ul>
+        </div>
       </div>
 
       <h3 className="text-xl font-semibold text-blue-300 mt-6">Projects</h3>

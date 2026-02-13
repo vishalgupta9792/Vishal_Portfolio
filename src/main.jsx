@@ -1,15 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import ResumePage from './ResumePage.jsx'
 import './index.css'
-
-const path = window.location.pathname
-
-const Root = path.startsWith('/resume') ? ResumePage : App
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Root />
+    <App />
   </React.StrictMode>,
 )

@@ -11,7 +11,17 @@ export default function About() {
       <h2 className="text-3xl font-bold text-blue-400 mb-6">About Me</h2>
 
       <p className="text-gray-300 leading-7">
-        I am a final year Full Stack Web Developer passionate about building scalable web applications and cloud-based solutions using AWS and Azure.
+        Full-Stack Web Developer with 6+ months of hands-on experience building scalable and high-performance web applications using React.js, Next.js, TypeScript, Node.js, and Express.js. Passionate about developing optimized, user-friendly interfaces and robust backend architectures.
+
+Experienced in designing and developing RESTful APIs and working with both NoSQL and relational databases including MongoDB, PostgreSQL, and MySQL, with strong knowledge of database schema design, data modeling, query optimization, and scalable data management.
+
+Skilled in building server-side rendered and high-performance applications using Next.js, ensuring SEO optimization and improved application performance. Proficient in developing type-safe and maintainable applications using TypeScript.
+
+Experienced in deploying production-ready applications using AWS Cloud Services (EC2, S3, IAM) and implementing automated CI/CD pipelines using GitHub Actions.
+
+Strong understanding of authentication and security best practices including JWT Authentication, OAuth 2.0, and Role-Based Access Control (RBAC).
+
+Comfortable working in collaborative development environments, following clean code principles, and delivering end-to-end real-world projects.
       </p>
     </motion.section>
   )
