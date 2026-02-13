@@ -8,6 +8,7 @@ export default function Skills() {
   const devops = ["CI/CD Pipeline", "GitHub Actions"]
   const auth = ["JWT Authentication", "OAuth 2.0", "RBAC"]
   const tools = ["Git", "GitHub", "Postman"]
+  const core = ["Python", "Object-Oriented Programming (OOP)", "Artificial Intelligence & Machine Learning"]
 
   const section = (title, items, delayStart = 0) => (
     <div>
@@ -40,7 +41,8 @@ export default function Skills() {
       </h2>
 
       <div className="max-w-5xl mx-auto space-y-8">
-        {section("Frontend", frontend, 0)}
+        {section("Core", core, 0)}
+        {section("Frontend", frontend, 0.1)}
         {section("Backend", backend, 0.2)}
         {section("Database", database, 0.4)}
         {section("Cloud & Deployment", cloud, 0.6)}
