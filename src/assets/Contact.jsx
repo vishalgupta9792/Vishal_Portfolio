@@ -164,18 +164,22 @@ export default function Contact() {
           className="mt-12 pt-8 border-t border-gray-800 grid md:grid-cols-3 gap-6"
         >
           {[
-            { icon: "📧", label: "Email", value: "vishalgupta9792@gmail.com" },
-            { icon: "💼", label: "LinkedIn", value: "@vishalgupta" },
-            { icon: "🐙", label: "GitHub", value: "@vishalgupta9792" }
+            { icon: "📧", label: "Email", value: "vishalgupta979204@gmail.com", link: "mailto:vishalgupta979204@gmail.com" },
+            { icon: "💼", label: "LinkedIn", value: "Vishal Gupta", link: "https://www.linkedin.com/in/vishal-gupta-913a55298" },
+            { icon: "🐙", label: "GitHub", value: "@vishalgupta9792", link: "https://github.com/vishalgupta9792" }
           ].map((item, i) => (
-            <motion.div key={i}
+            <motion.a
+              key={i}
+              href={item.link}
+              target={item.link.startsWith("mailto") ? undefined : "_blank"}
+              rel={item.link.startsWith("mailto") ? undefined : "noopener noreferrer"}
               whileHover={{ y: -5 }}
-              className="text-center"
+              className="text-center cursor-pointer"
             >
               <div className="text-3xl mb-2">{item.icon}</div>
               <p className="text-gray-400 text-sm">{item.label}</p>
-              <p className="text-blue-400 font-semibold text-sm mt-1">{item.value}</p>
-            </motion.div>
+              <p className="text-blue-400 font-semibold text-sm mt-1 hover:text-purple-400 transition">{item.value}</p>
+            </motion.a>
           ))}
         </motion.div>
       </div>
