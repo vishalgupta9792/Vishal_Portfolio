@@ -1,7 +1,6 @@
 import Navbar from "./assets/Navbar";
 import Hero from "./assets/Hero";
 import About from "./assets/About";
-import Resume from "./assets/Resume";
 import Skills from "./assets/Skills";
 import Projects from "./assets/Projects";
 import Contact from "./assets/Contact";
@@ -18,7 +17,6 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Resume />
         <Skills />
         <Projects />
         <Contact />
