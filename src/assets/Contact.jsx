@@ -1,6 +1,13 @@
+import { motion } from "framer-motion"
+
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 px-6 bg-gray-900">
+    <motion.section id="contact" className="py-20 px-6 bg-gray-900"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.6 }}
+    >
       <h2 className="text-3xl font-bold text-blue-400 mb-8 text-center">
         Contact Me
       </h2>
@@ -13,6 +20,6 @@ export default function Contact() {
           Send Message
         </button>
       </form>
-    </section>
+    </motion.section>
   )
 }
